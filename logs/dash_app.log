@@ -1,0 +1,6 @@
+INFO:dash.dash:Dash is running on http://0.0.0.0:8050/
+
+INFO:root:Request: GET /metrics from 10.211.223.102
+INFO:root:Request: GET /metrics from 10.211.223.102
+INFO:root:Request: GET /metrics from 10.211.223.102
+INFO:root:Request: GET /metrics from 10.211.223.102

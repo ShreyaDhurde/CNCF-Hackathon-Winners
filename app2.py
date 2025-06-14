@@ -329,7 +329,11 @@ def load_user(user_id):
     return User(user_id)
 
 # Set up logging
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(
+    level=logging.INFO, handlers=[
+        logging.FileHandler("logs/dash_app.log"),
+        logging.StreamHandler()  # Optional: also print to console
+    ])
 
 @server.before_request
 def log_request_info():
