@@ -98,7 +98,7 @@ app.layout = html.Div([
     
     dbc.Row([
         dbc.Col(html.Img(src='/assets/cloud_native.png', height='80px'), width=2),
-        dbc.Col(html.H1("Screw Compressor Predictive Maintenance Dashboard", className='text-center'), width=8),
+        dbc.Col(html.H1("AI Driven Predictive Maintenance Dashboard Monitoring", className='text-center'), width=8),
         dbc.Col([
             html.Div([
                 html.P("Prometheus Metrics", className='text-center', style={'margin': '0'}),
@@ -310,7 +310,7 @@ app.layout = html.Div([
     ], style={'display': 'none'}),
     
     html.Footer([
-        html.P("Built by Khushal Bendale (GET, ACD D&D) & Dipashri Wagh (Senior Engineer, ACD D&D)", className='text-center'),
+        html.P("Built With Love by Hustlers @CNCF Hackathon", className='text-center'),
         html.P("Prometheus metrics available at /metrics", className='text-center small text-muted')
     ], className='mt-4')
 ], style={'padding': '20px', 'backgroundColor': '#f8f9fa'})
