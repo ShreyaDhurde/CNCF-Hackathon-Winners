@@ -1,0 +1,18 @@
+// System Architecture
+digraph {
+	node [fillcolor=lightblue shape=box style=filled]
+	A [label="Smart Sensors
+(Pressure, Temp, Vibration, Current)"]
+	B [label="IoT Framework
+(Raspberry Pi, 5G, Kafka)"]
+	C [label="Digital Twin
+(Pressure-Volume, Rotor Dynamics)"]
+	D [label="AI/ML Models
+(LSTM, RL)"]
+	E [label="Cloud Server"]
+	A -> B
+	B -> C
+	C -> D
+	B -> E
+	D -> E
+}
